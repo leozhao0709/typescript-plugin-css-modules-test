@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 1.6rem;
+  height: 100%;
+  background-image: url('../images/2.jpg');
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+}
+
+input {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
