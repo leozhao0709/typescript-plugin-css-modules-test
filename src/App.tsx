@@ -3,7 +3,7 @@ import styles from './App.module.scss';
 import img1 from './assets/images/smallImage.png';
 import svg1 from './assets/svg/svg1.svg';
 
-const App: React.FC<any> = () => {
+const App: React.FC = () => {
   return (
     <div className={styles.App}>
       <h1>Test Project</h1>
